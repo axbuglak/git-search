@@ -1,3 +1,9 @@
+# [Search in Github](https://alexey-buglak.github.io/git-search/build/)
+
+### I used React, TypeScript, Redux Toolkit, RTKQuery and Tailwind
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
