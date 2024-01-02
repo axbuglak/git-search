@@ -5,12 +5,14 @@ import {FavouritesPage} from './pages/FavoritesPage';
 import Navigation from './components/Navigation';
 
 function App() {
+  const APPLICATION_NAME = '/git-search'
+  
   return (
     <>
      <Navigation></Navigation>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/favorites" element={<FavouritesPage />} />
+        <Route path={APPLICATION_NAME} element={<HomePage />} />
+        <Route path={APPLICATION_NAME + '/favorites'} element={<FavouritesPage />} />
       </Routes>
     </>
   );
